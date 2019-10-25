@@ -39,3 +39,73 @@ False
 >>> val=10
 >>> val>=5
 True
+
+
+score = int(input('숫자를 입력하세요'))
+if score % 2==0:
+    print('짝수입니다.')
+else:
+    print('홀수임.')
+    
+  else if ==> elif
+  
+  print('Hello 명아')
+score = int(input('점수를 입력하세요'))
+if score >= 90:
+    print('에이A')
+if score >= 80:
+    print('비B')
+if score >= 70:
+    print('씨C')
+if score >= 60:
+    print('디D')
+if score >= 50:
+    print('이E')
+else:
+    print('재시험')
+Hello 명아
+점수를 입력하세요89
+비B
+씨C
+디D
+이E
+    
+
+print('Hello 명아')
+score = int(input('점수를 입력하세요'))
+if score >= 90:
+    print('에이')
+elif score >= 80:
+    print('비')
+elif score >= 70:
+    print('씨')
+elif score >= 60:
+    print('디')
+elif score >= 50:
+    print('이')
+else:
+    print('재시험')
+
+Hello 명아
+점수를 입력하세요100
+에이
+ 
+ 
+
+users=['choi','lee','kim']
+id = input('아이디를 입력하세요')
+
+if id in users:
+    pw = input('비밀번호를 입력하세요')
+    if pw == '1111':
+        print('사용자가 맞습니다')
+    else:
+        print('암호가 틀렸습니다.')
+    
+else:
+    print('입력된 사용자가 아닙니다.')
+    
+
+아이디를 입력하세요lee
+비밀번호를 입력하세요5151
+암호가 틀렸습니다.
